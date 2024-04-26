@@ -1,0 +1,59 @@
+{
+  "name": "SigmaEss",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native --openssl-legacy-provider start",
+    "test": "jest",
+    "lint": "eslint .",
+    "devtools": "react-devtools"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.16.1",
+    "@react-native-community/datetimepicker": "^7.1.0",
+    "@react-navigation/bottom-tabs": "^6.0.9",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "axios": "^1.4.0",
+    "babel-preset-expo": "^9.3.2",
+    "dotenv": "^16.1.4",
+    "install": "^0.13.0",
+    "npm": "^8.5.3",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "react": "18.2.0",
+    "react-native": "0.65.1",
+    "react-native-animatable": "^1.3.3",
+    "react-native-blob-util": "^0.18.2",
+    "react-native-camera": "^4.2.1",
+    "react-native-dotenv": "^3.4.8",
+    "react-native-dropdown-picker": "^5.4.6",
+    "react-native-elements": "^3.4.3",
+    "react-native-geolocation-service": "^5.3.0-beta.4",
+    "react-native-gradle-plugin": "^0.71.18",
+    "react-native-image-picker": "^5.4.2",
+    "react-native-linear-gradient": "^2.6.2",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.20.0",
+    "react-native-uuid": "^2.0.1",
+    "react-native-vector-icons": "^9.1.0",
+    "rn-fetch-blob": "^0.12.0",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/runtime": "^7.17.2",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.5.1",
+    "eslint": "^8.10.0",
+    "jest": "^27.5.1",
+    "metro-react-native-babel-preset": "^0.69.0",
+    "react-devtools": "^4.27.8",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

@@ -1,0 +1,272 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sigmaess"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:6:5-65
+12-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:6:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:10:5-81
+13-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:10:22-78
+14    <uses-permission android:name="android.permission.INTERNET" /> <!-- Include this only if you are planning to use the camera roll -->
+14-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:4:5-67
+14-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:4:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Include this only if you are planning to use the microphone for video recording -->
+15-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:9:5-80
+15-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:9:22-77
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:13:5-70
+16-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:13:22-68
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:14:5-81
+17-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:14:22-78
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:15:5-79
+18-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:15:22-76
+19    <!--
+20 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22    -->
+23    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+23-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:19:5-88
+23-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:19:22-85
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:20:5-79
+24-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:20:22-76
+25    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+25-->[com.facebook.flipper:flipper:0.99.0] C:\Users\HP\.gradle\caches\transforms-3\cb9816002adfa18f2811cf92088c57bd\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
+25-->[com.facebook.flipper:flipper:0.99.0] C:\Users\HP\.gradle\caches\transforms-3\cb9816002adfa18f2811cf92088c57bd\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
+26    <!--
+27         Required to keep CPU alive while downloading files
+28        (NOT to keep screen awake)
+29    -->
+30    <uses-permission android:name="android.permission.WAKE_LOCK" />
+30-->[:react-native-blob-util] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:5-68
+30-->[:react-native-blob-util] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:22-65
+31
+32    <uses-feature
+32-->[:react-native-camera] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:11:5-13:36
+33        android:name="android.hardware.camera"
+33-->[:react-native-camera] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:12:9-47
+34        android:required="false" />
+34-->[:react-native-camera] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:13:9-33
+35    <uses-feature
+35-->[:react-native-camera] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:14:5-16:36
+36        android:name="android.hardware.camera.autofocus"
+36-->[:react-native-camera] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:15:9-57
+37        android:required="false" /> <!-- Required to access Google Play Licensing -->
+37-->[:react-native-camera] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:16:9-33
+38    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+38-->[:rn-fetch-blob] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-73
+38-->[:rn-fetch-blob] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-70
+39
+40    <application
+40-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:23:5-42:19
+41        android:name="com.sigmaess.MainApplication"
+41-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:24:7-38
+42        android:allowBackup="false"
+42-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:28:7-34
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.5.0] C:\Users\HP\.gradle\caches\transforms-3\f74f379f85bed5a4fe67dcfb000bcf24\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+44        android:debuggable="true"
+45        android:icon="@mipmap/ic_launcher"
+45-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:26:7-41
+46        android:label="@string/app_name"
+46-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:25:7-39
+47        android:roundIcon="@mipmap/ic_launcher_round"
+47-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:27:7-52
+48        android:theme="@style/AppTheme"
+48-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:29:7-38
+49        android:usesCleartextTraffic="true" >
+49-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\debug\AndroidManifest.xml:10:9-44
+50        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+50-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\debug\AndroidManifest.xml:13:9-86
+50-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\debug\AndroidManifest.xml:13:19-83
+51        <activity
+51-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:30:7-41:18
+52            android:name="com.sigmaess.MainActivity"
+52-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:31:9-37
+53            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+53-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:33:9-86
+54            android:label="@string/app_name"
+54-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:32:9-41
+55            android:launchMode="singleTask"
+55-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:34:9-40
+56            android:windowSoftInputMode="adjustResize" >
+56-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:35:9-51
+57            <intent-filter>
+57-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:36:9-40:25
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:37:13-65
+58-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:37:21-62
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:38:13-73
+60-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:38:23-70
+61
+62                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+62-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:39:13-77
+62-->C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\android\app\src\main\AndroidManifest.xml:39:21-75
+63            </intent-filter>
+64        </activity>
+65
+66        <provider
+66-->[:react-native-blob-util] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:9-45:20
+67            android:name="com.ReactNativeBlobUtil.Utils.FileProvider"
+67-->[:react-native-blob-util] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-70
+68            android:authorities="com.sigmaess.provider"
+68-->[:react-native-blob-util] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-60
+69            android:exported="false"
+69-->[:react-native-blob-util] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-37
+70            android:grantUriPermissions="true" >
+70-->[:react-native-blob-util] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-47
+71            <meta-data
+71-->[:react-native-blob-util] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-44:58
+72                android:name="android.support.FILE_PROVIDER_PATHS"
+72-->[:react-native-blob-util] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:17-67
+73                android:resource="@xml/provider_paths" />
+73-->[:react-native-blob-util] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:17-55
+74        </provider>
+75        <provider
+75-->[:react-native-image-picker] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+76            android:name="com.imagepicker.ImagePickerProvider"
+76-->[:react-native-image-picker] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-63
+77            android:authorities="com.sigmaess.imagepickerprovider"
+77-->[:react-native-image-picker] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-71
+78            android:exported="false"
+78-->[:react-native-image-picker] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+79            android:grantUriPermissions="true" >
+79-->[:react-native-image-picker] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+80            <meta-data
+80-->[:react-native-blob-util] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-44:58
+81                android:name="android.support.FILE_PROVIDER_PATHS"
+81-->[:react-native-blob-util] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:17-67
+82                android:resource="@xml/imagepicker_provider_paths" />
+82-->[:react-native-blob-util] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:17-55
+83        </provider>
+84        <provider
+84-->[:rn-fetch-blob] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-42:20
+85            android:name="com.RNFetchBlob.Utils.FileProvider"
+85-->[:rn-fetch-blob] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-62
+86            android:authorities="com.sigmaess.provider"
+86-->[:rn-fetch-blob] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-60
+87            android:exported="false"
+87-->[:rn-fetch-blob] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-37
+88            android:grantUriPermissions="true" >
+88-->[:rn-fetch-blob] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-47
+89            <meta-data
+89-->[:react-native-blob-util] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-44:58
+90                android:name="android.support.FILE_PROVIDER_PATHS"
+90-->[:react-native-blob-util] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:17-67
+91                android:resource="@xml/provider_paths" />
+91-->[:react-native-blob-util] C:\OG\RN\payroll_react_native_app\payroll_reactnative_app-master\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:17-55
+92        </provider>
+93
+94        <service
+94-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\HP\.gradle\caches\transforms-3\1df6b23ae872903d78fc8423dcda63e5\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:9:9-15:19
+95            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+95-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\HP\.gradle\caches\transforms-3\1df6b23ae872903d78fc8423dcda63e5\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:10:13-91
+96            android:directBootAware="true"
+96-->[com.google.mlkit:common:17.2.0] C:\Users\HP\.gradle\caches\transforms-3\b16568c891cc1c16c74e378af0080f10\transformed\jetified-common-17.2.0\AndroidManifest.xml:17:13-43
+97            android:exported="false" >
+97-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\HP\.gradle\caches\transforms-3\1df6b23ae872903d78fc8423dcda63e5\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:11:13-37
+98            <meta-data
+98-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\HP\.gradle\caches\transforms-3\1df6b23ae872903d78fc8423dcda63e5\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:12:13-14:85
+99                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+99-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\HP\.gradle\caches\transforms-3\1df6b23ae872903d78fc8423dcda63e5\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:13:17-120
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\HP\.gradle\caches\transforms-3\1df6b23ae872903d78fc8423dcda63e5\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:14:17-82
+101            <meta-data
+101-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\HP\.gradle\caches\transforms-3\4660bc21375389e763ca9d910adec3d6\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:12:13-14:85
+102                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+102-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\HP\.gradle\caches\transforms-3\4660bc21375389e763ca9d910adec3d6\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:13:17-114
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\HP\.gradle\caches\transforms-3\4660bc21375389e763ca9d910adec3d6\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:14:17-82
+104            <meta-data
+104-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\HP\.gradle\caches\transforms-3\2d470dc0633e0141943ce2f2d221b070\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:12:13-14:85
+105                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+105-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\HP\.gradle\caches\transforms-3\2d470dc0633e0141943ce2f2d221b070\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:13:17-114
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\HP\.gradle\caches\transforms-3\2d470dc0633e0141943ce2f2d221b070\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:14:17-82
+107            <meta-data
+107-->[com.google.mlkit:vision-common:16.5.0] C:\Users\HP\.gradle\caches\transforms-3\1b390636356fec7edbd70727d6ff7282\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:12:13-14:85
+108                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+108-->[com.google.mlkit:vision-common:16.5.0] C:\Users\HP\.gradle\caches\transforms-3\1b390636356fec7edbd70727d6ff7282\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:13:17-124
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.mlkit:vision-common:16.5.0] C:\Users\HP\.gradle\caches\transforms-3\1b390636356fec7edbd70727d6ff7282\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:14:17-82
+110            <meta-data
+110-->[com.google.mlkit:common:17.2.0] C:\Users\HP\.gradle\caches\transforms-3\b16568c891cc1c16c74e378af0080f10\transformed\jetified-common-17.2.0\AndroidManifest.xml:20:13-22:85
+111                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+111-->[com.google.mlkit:common:17.2.0] C:\Users\HP\.gradle\caches\transforms-3\b16568c891cc1c16c74e378af0080f10\transformed\jetified-common-17.2.0\AndroidManifest.xml:21:17-120
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.mlkit:common:17.2.0] C:\Users\HP\.gradle\caches\transforms-3\b16568c891cc1c16c74e378af0080f10\transformed\jetified-common-17.2.0\AndroidManifest.xml:22:17-82
+113        </service>
+114
+115        <provider
+115-->[com.google.mlkit:common:17.2.0] C:\Users\HP\.gradle\caches\transforms-3\b16568c891cc1c16c74e378af0080f10\transformed\jetified-common-17.2.0\AndroidManifest.xml:9:9-13:38
+116            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+116-->[com.google.mlkit:common:17.2.0] C:\Users\HP\.gradle\caches\transforms-3\b16568c891cc1c16c74e378af0080f10\transformed\jetified-common-17.2.0\AndroidManifest.xml:10:13-78
+117            android:authorities="com.sigmaess.mlkitinitprovider"
+117-->[com.google.mlkit:common:17.2.0] C:\Users\HP\.gradle\caches\transforms-3\b16568c891cc1c16c74e378af0080f10\transformed\jetified-common-17.2.0\AndroidManifest.xml:11:13-69
+118            android:exported="false"
+118-->[com.google.mlkit:common:17.2.0] C:\Users\HP\.gradle\caches\transforms-3\b16568c891cc1c16c74e378af0080f10\transformed\jetified-common-17.2.0\AndroidManifest.xml:12:13-37
+119            android:initOrder="99" />
+119-->[com.google.mlkit:common:17.2.0] C:\Users\HP\.gradle\caches\transforms-3\b16568c891cc1c16c74e378af0080f10\transformed\jetified-common-17.2.0\AndroidManifest.xml:13:13-35
+120
+121        <service
+121-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\HP\.gradle\caches\transforms-3\2b5bdc63d79d2c20f43c2e8f7d768d56\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+122            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+122-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\HP\.gradle\caches\transforms-3\2b5bdc63d79d2c20f43c2e8f7d768d56\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+123            android:exported="false" >
+123-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\HP\.gradle\caches\transforms-3\2b5bdc63d79d2c20f43c2e8f7d768d56\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+124            <meta-data
+124-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\HP\.gradle\caches\transforms-3\2b5bdc63d79d2c20f43c2e8f7d768d56\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+125                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+125-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\HP\.gradle\caches\transforms-3\2b5bdc63d79d2c20f43c2e8f7d768d56\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+126                android:value="cct" />
+126-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\HP\.gradle\caches\transforms-3\2b5bdc63d79d2c20f43c2e8f7d768d56\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+127        </service>
+128        <service
+128-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\HP\.gradle\caches\transforms-3\b64373fc9cf0284e82c525e511e1a120\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+129            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+129-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\HP\.gradle\caches\transforms-3\b64373fc9cf0284e82c525e511e1a120\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+130            android:exported="false"
+130-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\HP\.gradle\caches\transforms-3\b64373fc9cf0284e82c525e511e1a120\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+131            android:permission="android.permission.BIND_JOB_SERVICE" >
+131-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\HP\.gradle\caches\transforms-3\b64373fc9cf0284e82c525e511e1a120\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+132        </service>
+133
+134        <receiver
+134-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\HP\.gradle\caches\transforms-3\b64373fc9cf0284e82c525e511e1a120\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+135            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+135-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\HP\.gradle\caches\transforms-3\b64373fc9cf0284e82c525e511e1a120\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+136            android:exported="false" />
+136-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\HP\.gradle\caches\transforms-3\b64373fc9cf0284e82c525e511e1a120\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+137
+138        <activity
+138-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\HP\.gradle\caches\transforms-3\7e60f2020e39ec14eb6a4f930141aaee\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+139            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+139-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\HP\.gradle\caches\transforms-3\7e60f2020e39ec14eb6a4f930141aaee\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+140            android:exported="false"
+140-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\HP\.gradle\caches\transforms-3\7e60f2020e39ec14eb6a4f930141aaee\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+141            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+141-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\HP\.gradle\caches\transforms-3\7e60f2020e39ec14eb6a4f930141aaee\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+142
+143        <meta-data
+143-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\HP\.gradle\caches\transforms-3\347f13d1b1f760e27c1ac5b2333789c9\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+144            android:name="com.google.android.gms.version"
+144-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\HP\.gradle\caches\transforms-3\347f13d1b1f760e27c1ac5b2333789c9\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+145            android:value="@integer/google_play_services_version" />
+145-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\HP\.gradle\caches\transforms-3\347f13d1b1f760e27c1ac5b2333789c9\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+146    </application>
+147
+148</manifest>
