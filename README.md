@@ -10,6 +10,7 @@ https://drive.google.com/file/d/194IsIbAXoIIBes4J0yyiLIMMUMLLvHuh/view?usp=shari
 
 ## Techstack
   - React Native
+  - Redux
 
 
 
